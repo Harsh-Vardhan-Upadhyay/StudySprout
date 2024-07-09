@@ -4,7 +4,7 @@ import Login from './Pages/Login.js'
 
 export default function Index() {
   return (
-    <View>
+    <View style={{flex:1,backgroundColor:'#0D0D0D'}} >
 <Login/>
 
     </View>
