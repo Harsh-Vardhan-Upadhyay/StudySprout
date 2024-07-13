@@ -28,9 +28,9 @@ export default function CourseList() {
         horizontal={true}
         showsHorizontalScrollIndicator={false}
         renderItem={({ item }) => (
-          <View>
-            <Image source = {{uri:item?.banner?.url}}
-            style ={{width:335,height:156,borderRadius:20}} />
+          <View style={{padding:5}} >
+            <Image source = {{uri:item?.courseCover?.url}}
+            style ={{width:310,height:145,borderRadius:20}} />
           </View>
         )}
       />
