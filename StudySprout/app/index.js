@@ -29,7 +29,7 @@ export default function Index() {
 const style = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor: '#fff',
+    backgroundColor: '#0D0D0D',
     marginTop:20
   },
 })

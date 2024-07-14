@@ -24,13 +24,16 @@ query CourseList {
     }
     chapters {
       id
-      description {
-        markdown
-      }
       output {
         markdown
       }
       title
+      chapterDescription {
+        markdown
+      }
+      example {
+        markdown
+      }
     }
     courseBanner {
       url
@@ -43,9 +46,6 @@ query CourseList {
     }
   }
 }
-
-
-
 
   `;
 
