@@ -14,9 +14,9 @@ Welcome to **StudySprout** – an e-learning app built using React Native and Ex
 ## Screenshots
 
 <div style="display:flex; justify-content:space-around;">
-  <img src="https://github.com/user-attachments/assets/041b213a-7643-45a1-bcda-2729a44a40c8" alt="Screenshot 1" width="300" />
-  <img src="https://github.com/user-attachments/assets/2f602224-9e44-4c5e-995c-e919a9d5b79a" alt="Screenshot 2" width="300" />
-  <img src="https://github.com/user-attachments/assets/1691a429-db12-481a-85c6-e3668036b5d7" alt="Screenshot 3" width="300" />
+  <img src="https://github.com/user-attachments/assets/041b213a-7643-45a1-bcda-2729a44a40c8" alt="Screenshot 1" width="200" />
+  <img src="https://github.com/user-attachments/assets/2f602224-9e44-4c5e-995c-e919a9d5b79a" alt="Screenshot 2" width="200" />
+  <img src="https://github.com/user-attachments/assets/1691a429-db12-481a-85c6-e3668036b5d7" alt="Screenshot 3" width="200" />
 </div>
 
 ### Prerequisites
