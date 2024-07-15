@@ -1,7 +1,8 @@
 # StudySprout
 
+![smartmockups_lymaef1m](https://github.com/user-attachments/assets/7790aab7-51aa-44c0-b0e3-78eec55a20d5)
 
-![smartmockups_lyma35qb](https://github.com/user-attachments/assets/cf883499-d965-404a-9c50-bf070c8beb63)
+
 
 Welcome to **StudySprout** – an e-learning app built using React Native and Expo. StudySprout leverages the power of Clerk for Google Sign-In, Hygraph for schema management, and GraphQL for data fetching to provide a seamless learning experience.
 
