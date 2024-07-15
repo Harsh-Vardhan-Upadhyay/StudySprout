@@ -1,8 +1,6 @@
 # StudySprout
 
-![smartmockups_lymaef1m](https://github.com/user-attachments/assets/7790aab7-51aa-44c0-b0e3-78eec55a20d5)
-
-
+![StudySprout Logo](https://github.com/user-attachments/assets/7790aab7-51aa-44c0-b0e3-78eec55a20d5)
 
 Welcome to **StudySprout** – an e-learning app built using React Native and Expo. StudySprout leverages the power of Clerk for Google Sign-In, Hygraph for schema management, and GraphQL for data fetching to provide a seamless learning experience.
 
@@ -15,12 +13,11 @@ Welcome to **StudySprout** – an e-learning app built using React Native and Ex
 
 ## Screenshots
 
-![IMG_3509](https://github.com/user-attachments/assets/041b213a-7643-45a1-bcda-2729a44a40c8)
-![IMG_3510](https://github.com/user-attachments/assets/2f602224-9e44-4c5e-995c-e919a9d5b79a)
-![IMG_3511](https://github.com/user-attachments/assets/1691a429-db12-481a-85c6-e3668036b5d7)
-<!-- Add some screenshots of your app here -->
-
-
+<div style="display:flex; justify-content:space-around;">
+  <img src="https://github.com/user-attachments/assets/041b213a-7643-45a1-bcda-2729a44a40c8" alt="Screenshot 1" width="300" />
+  <img src="https://github.com/user-attachments/assets/2f602224-9e44-4c5e-995c-e919a9d5b79a" alt="Screenshot 2" width="300" />
+  <img src="https://github.com/user-attachments/assets/1691a429-db12-481a-85c6-e3668036b5d7" alt="Screenshot 3" width="300" />
+</div>
 
 ### Prerequisites
 
