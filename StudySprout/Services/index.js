@@ -57,3 +57,31 @@ query CourseList {
     throw error;
   }
 };
+
+export const enrollCourse=async(courseId,userEmal)=>{
+  const mutationQuery=gql`mutation MyMutation {
+  createUserEnrolledCourse(
+    data: {courseId: "`+courseId+`", userEmal: "`+userEmal+`", course: {connect: {id: "`+courseId+`"}}}
+  ) {
+    id
+  }
+  publishManyUserEnrolledCoursesConnection(to: PUBLISHED) {
+    edges {
+      node {
+        id
+      }
+    }
+  }
+}
+
+
+`
+
+try {
+  const { data } = await client.mutationQuery({ mutationQuery });
+  return data;
+} catch (error) {
+  console.error("Error fetching course list:", error);
+  throw error;
+}
+}

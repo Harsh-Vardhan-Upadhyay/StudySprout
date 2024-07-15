@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet, TextInput, ScrollView } from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
 import { useUser } from '@clerk/clerk-expo';
 import { EvilIcons } from '@expo/vector-icons';
 import CourseList from '/Users/harshvardhanupadhyay/STUDYSPROUT/StudySprout/StudySprout/components/CourseList.js';
@@ -7,6 +7,7 @@ import DropCourseList from '../../components/DropCourseList.js';
 
 export default function Home() {
   const { isLoaded, user } = useUser();
+  const [searchQuery, setSearchQuery] = useState('');
 
   return isLoaded && (
     <View style={styles.container}>
@@ -20,7 +21,13 @@ export default function Home() {
 
       <View style={styles.searchContainer}>
         <EvilIcons name="search" size={40} color="#C9C9C9" style={styles.searchIcon} />
-        <TextInput placeholder='Search for a course...' placeholderTextColor="#ffff" style={styles.searchInput} />
+        <TextInput
+          placeholder='Search for a course...'
+          placeholderTextColor="#fff"
+          style={styles.searchInput}
+          value={searchQuery}
+          onChangeText={setSearchQuery}
+        />
       </View>
 
       <View style={styles.courseListContainer}>
@@ -31,7 +38,7 @@ export default function Home() {
 
       <View style={styles.dropCourseListContainer}>
         <ScrollView showsVerticalScrollIndicator={false}>
-          <DropCourseList />
+          <DropCourseList searchQuery={searchQuery} />
         </ScrollView>
       </View>
     </View>
@@ -42,7 +49,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#0D0D0D',
-
   },
   profileContainer: {
     flexDirection: 'row',
@@ -84,7 +90,6 @@ const styles = StyleSheet.create({
   },
   courseListContainer: {
     marginTop: 20,
-    
   },
   coursesTitle: {
     fontSize: 22,
