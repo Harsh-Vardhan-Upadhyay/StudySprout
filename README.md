@@ -18,54 +18,33 @@ Welcome to **StudySprout** – an e-learning app built using React Native and Ex
 ![Course Screen](path_to_course_screen_image)
 ![Chapter Screen](path_to_chapter_screen_image)
 
-## Installation
-
-Follow these steps to get a copy of StudySprout up and running on your local machine.
-
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
-### Clone the Repository
+## Usage
 
-```sh
-git clone https://github.com/your_username/StudySprout.git
-cd StudySprout
+- **Sign In**: Use Google Sign-In powered by Clerk to access the app.
+- **Browse Courses**: Explore the available courses and chapters.
+- **Learn**: Dive into the course content and enjoy learning!
 
-Usage
+## Built With
 
-Sign In: Use Google Sign-In powered by Clerk to access the app.
-Browse Courses: Explore the available courses and chapters.
-Learn: Dive into the course content and enjoy learning!
-Built With
+- **[React Native](https://reactnative.dev/)** - A framework for building native apps using React.
+- **[Expo](https://expo.dev/)** - A platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
+- **[Clerk](https://clerk.dev/)** - Authentication and user management for your apps.
+- **[Hygraph](https://hygraph.com/)** - The first native GraphQL Headless CMS.
+- **[GraphQL](https://graphql.org/)** - A query language for your API.
 
-React Native - A framework for building native apps using React.
-Expo - A platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
-Clerk - Authentication and user management for your apps.
-Hygraph - The first native GraphQL Headless CMS.
-GraphQL - A query language for your API.
-Contributing
+## License
 
-Contributions are what make the open-source community such an amazing place to be, learn, and create. Any contributions you make are greatly appreciated.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-License
+## Acknowledgements
 
-Distributed under the MIT License. See LICENSE for more information.
-
-Contact
-
-Your Name - Your Email
-Project Link: https://github.com/your_username/StudySprout
-Acknowledgements
-
-React Native
-Expo
-Clerk
-Hygraph
-GraphQL
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Clerk](https://clerk.dev/)
+- [Hygraph](https://hygraph.com/)
+- [GraphQL](https://graphql.org/)
