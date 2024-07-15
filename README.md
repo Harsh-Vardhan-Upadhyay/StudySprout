@@ -38,9 +38,6 @@ Welcome to **StudySprout** – an e-learning app built using React Native and Ex
 - **[Hygraph](https://hygraph.com/)** - The first native GraphQL Headless CMS.
 - **[GraphQL](https://graphql.org/)** - A query language for your API.
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgements
 
